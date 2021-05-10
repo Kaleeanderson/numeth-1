@@ -1,0 +1,44 @@
+README for final project
+Liz and Kalee
+
+The code:
+Python code that creates the initial conditions utilizing the MERCURY package.
+initial_positions.py
+
+to run:
+python initial_positions.py
+
+outputs:
+initial_pos.txt
+Which consists of the initial conditions of the planets and Sun along with 100 asteroids.
+
+The leapfrog integrator is made in fortran:
+leapfrog.f90
+
+to make:
+make test
+
+to run:
+./test
+
+This outputs a data file for each particle
+data_*.txt
+
+It also prints out the start and stop times of the integration.
+
+The orbits of the planets can be plotted with 
+display_orbit.py
+
+to run:
+python display_orbit.py
+
+The fractional change in energy as a function of can be plotted with
+leapfrog_energy.py
+
+to run: 
+python leapfrog_energy.py
+
+
+
+
+end of README
